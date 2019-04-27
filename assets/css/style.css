@@ -4,6 +4,9 @@
 body{
     font-family: 'Roboto Mono', monospace;
 }
+img {
+    max-width: 100%;
+}
 .hero{
     background: url('../img/hero-banner.jpg');
     background-size: 100%;
@@ -86,11 +89,16 @@ body{
     max-width: 950px;
     margin: auto;
 }
+
+.container-big {
+    max-width: 1430px;
+    margin: auto;
+}
+
 .sec-hero{
     background: url(../img/tyler-lastovich-1482288-unsplash.jpg);
     background-size: 100%;
     margin: 70px;
-    height: 80vh;
     display: flex;
     justify-content: flex-end;
     text-align: center;
@@ -130,9 +138,13 @@ body{
     margin-bottom: 30px;
     width: calc(50% - 10px);
 }
-.shoes-baner{
+.showcase {
+    margin-bottom: 20px;
     display: flex;
-    height: 80vh;
+    justify-content: space-between;
+}
+.showcase .item {
+    width: calc(50% - 10px);
 }
 .shoes-baner .frist-baner{
     background: url(../img/fristcrose.jpg);
@@ -140,19 +152,16 @@ body{
 .shoes-baner .second-baner{
     background: url(../img/asoggetti-1486419-unsplash.jpg);
 }
-.section-baner {
-    background-color: blueviolet;
-    margin: 70px;
-    margin-top: 0px;
-    height: 80vh;
+.section-reactive {
+    padding: 25px;
+    background-color: #7443ff;
+    margin-top: 0;
+}
+.banner-wrapper {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: center;
-    color: white;
 }
 .baner-conten{
-    margin: 30px;
+    margin: 30px 30px 0 30px;
     text-transform: uppercase;
 }
 .baner-conten h2{
@@ -184,7 +193,11 @@ body{
     text-align: center;
     padding-top: 30px;
 }
-.layout-conten p{
-    
+.layout-conten p{   
     font-size: 15px;
+}
+
+.position-bottom {
+    display: flex;
+    align-items: flex-end
 }
