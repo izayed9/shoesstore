@@ -251,3 +251,51 @@ img{
 .right-banner .top-banner{
     margin-bottom: 10px;
 }
+.share-section{
+    text-align: center;
+    margin: 100px;
+}
+.share-section h2{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.share-section ul{
+    display: flex;
+    justify-content: center;
+}
+.share-section ul li a{
+ text-decoration: none;
+ color:gray;
+}
+.share-section ul li a:hover{
+    color: rgb(18, 13, 22);
+}
+.share-section ul li{
+    margin: 20px;
+    font-size: 17px;
+    letter-spacing: -1px;
+}
+.share-section ul li .f-icon{
+    background-color: transparent;
+    border: 0;
+    margin-right: 10px;
+}
+.together-make{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.together{
+    display: flex;
+    justify-content: space-between;
+}
+.together-logo {
+    position: absolute;
+    top: 20px;
+    left:20px;
+    width: 60px;
+}
+.together-content{
+    text-align: left;
+}
